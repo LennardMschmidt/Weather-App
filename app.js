@@ -17,7 +17,7 @@ app.listen(3000, function(){
 })
 app.post("/", function(req, res){    
 const query = req.body.cityName;
-const apiKey = "9516b85406bc6ee973cf1b155762a40b"
+const apiKey = "personal api key"
 const units = "metric"
 const url = "https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+apiKey+"&units="+units;
 //API basically a huge JSON object that is provided from the other server that you can use to access their data. 
